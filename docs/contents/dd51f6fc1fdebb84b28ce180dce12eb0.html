@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Site</title>
+    <title></title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,14 +18,14 @@
 
       <!-- Name Title -->
 
-      <h1>Site</h1>
+      <h1>(unnamed)</h1>
 
       <!-- Type and Stereotype -->
 
       <section style="margin-top: .5em;">
         <span class="alert alert-info">
-          <span class="node-icon staruml-icon icon-UMLClass"></span>
-          UMLClass
+          <span class="node-icon staruml-icon icon-UMLGeneralization"></span>
+          UMLGeneralization
         </span>
         
       </section>
@@ -45,6 +45,9 @@
           <span>::</span>
           <span class="label label-info"><a href='d32dda76ebe260e615347aa7b0abf02d.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Site</a></span>
         
+          <span>::</span>
+          <span class="label label-info"><a href='dd51f6fc1fdebb84b28ce180dce12eb0.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Site→Base)</a></span>
+        
       </section>
 
       <!-- Diagram -->
@@ -58,7 +61,7 @@
         <h3>Description</h3>
         <div>
           
-            <p>Location where observations are made.</p>
+            <span class="label label-info">none</span>
           
         </div>
       </section>
@@ -71,41 +74,31 @@
       <!-- Directed Relationship -->
 
       
+      <section class="element-list">
+        <table width="100%">
+          <tr>
+            <td width="50%">
+              <h3>Source</h3>
+              <ul class="nav nav-list">
+                <li><a href='d32dda76ebe260e615347aa7b0abf02d.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Site</a></a></li>
+              </ul>
+            </td>
+            <td width="50%">
+              <h3>Target</h3>
+              <ul class="nav nav-list">
+                <li><a href='48cfd82f1ec2336e39f71b543c22a8f0.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Base</a></a></li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </section>
+      
 
       <!-- Undirected Relationship -->
 
       
 
       <!-- Classifier -->
-
-      
-        
-        
-<section class="element-list">
-    <h3>Generalized Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='48cfd82f1ec2336e39f71b543c22a8f0.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Base</a></li>
-        
-    </ul>
-</section>
-
-
-
-        
-        
-
-
-        
-        
-
-
-        
-        
-
-
-        
-        
 
       
 
@@ -139,28 +132,6 @@
 
       <!-- Attributes -->
 
-      
-      <section>
-        <h3>Attributes</h3>
-        <table class="table table-striped table-bordered">
-          <tr>
-            <th>Visibility</th>
-            <th>Name</th>
-            <th>Type</th>
-            <th>Description</th>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="dd1e4f818e54404fc4ad73c0aaa07b03.html">dateEstablished</a></td>
-            <td><a href='139ebd2f381d114306510275190dcae8.html'>Date</a></td>
-            <td><p>The date when the site was established in ISO 8601 format.</p>
-
-<p>E.g. 2021-01-29</p></td>
-          </tr>
-          
-        </table>
-      </section>
       
 
       <!-- Operations -->
@@ -263,7 +234,7 @@
     
     <tr>
         <td>name</td>
-        <td>Site</td>
+        <td></td>
     </tr>
     
     
@@ -271,6 +242,24 @@
     
     
     
+    
+    
+    
+    
+    
+    <tr>
+        <td>source</td>
+        <td><a href='d32dda76ebe260e615347aa7b0abf02d.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Site</a></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>target</td>
+        <td><a href='48cfd82f1ec2336e39f71b543c22a8f0.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Base</a></td>
+    </tr>
     
     
     
@@ -294,46 +283,9 @@
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <tr>
-        <td>isAbstract</td>
-        <td><span class='label label-info'>false</span></td>
-    </tr>
-    
-    
-    
-    
-    
-    <tr>
-        <td>isFinalSpecialization</td>
-        <td><span class='label label-info'>false</span></td>
-    </tr>
-    
-    
-    
-    
-    
-    <tr>
-        <td>isLeaf</td>
-        <td><span class='label label-info'>false</span></td>
-    </tr>
-    
-    
-    
-    
-    
-    <tr>
-        <td>isActive</td>
-        <td><span class='label label-info'>false</span></td>
+        <td>discriminator</td>
+        <td></td>
     </tr>
     
     
@@ -349,51 +301,17 @@
       <!-- Constraints, Dependencies, Dependants -->
 
       
-        
-        
-
-
-        
-        
-
-
-        
-        
-
-      
 
       <!-- Relationships -->
 
       
       
-<section class="element-list">
-    <h3>Relationships</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='2b741a4ccfd08c31fded7b4585fc04b1.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Site—SiteVisit)</a></li>
-        
-        <li><a href='dd51f6fc1fdebb84b28ce180dce12eb0.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Site→Base)</a></li>
-        
-        <li><a href='d40b93ecde03522a35ba96008fab7ee8.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Observation—Site)</a></li>
-        
-    </ul>
-</section>
-
 
 
       <!-- Owned Elements -->
 
       
       
-<section class="element-list">
-    <h3>Owned Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='dd51f6fc1fdebb84b28ce180dce12eb0.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Site→Base)</a></li>
-        
-    </ul>
-</section>
-
 
 
     </div>

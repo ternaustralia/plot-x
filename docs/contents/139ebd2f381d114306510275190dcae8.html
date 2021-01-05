@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>SiteVisit</title>
+    <title>Date</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,14 +18,14 @@
 
       <!-- Name Title -->
 
-      <h1>SiteVisit</h1>
+      <h1>Date</h1>
 
       <!-- Type and Stereotype -->
 
       <section style="margin-top: .5em;">
         <span class="alert alert-info">
-          <span class="node-icon staruml-icon icon-UMLClass"></span>
-          UMLClass
+          <span class="node-icon staruml-icon icon-UMLDataType"></span>
+          UMLDataType
         </span>
         
       </section>
@@ -40,10 +40,10 @@
           <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>Plot Data Exchange</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='594af663de577680f35b13183109d675.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Model</a></span>
+          <span class="label label-info"><a href='8b02cb908a9b367e7b8677d4be9e9940.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Types</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='3c507e636eb3e193828480e12dc765b8.html'><span class='node-icon staruml-icon icon-UMLClass'></span>SiteVisit</a></span>
+          <span class="label label-info"><a href='139ebd2f381d114306510275190dcae8.html'><span class='node-icon staruml-icon icon-UMLDataType'></span>Date</a></span>
         
       </section>
 
@@ -58,7 +58,7 @@
         <h3>Description</h3>
         <div>
           
-            <p>A discrete time-bounded visit to a site, during which sampling or observation activities are undertaken.</p>
+            <p>ISO 8601 date.</p>
           
         </div>
       </section>
@@ -81,15 +81,6 @@
       
         
         
-<section class="element-list">
-    <h3>Generalized Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='48cfd82f1ec2336e39f71b543c22a8f0.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Base</a></li>
-        
-    </ul>
-</section>
-
 
 
         
@@ -139,54 +130,6 @@
 
       <!-- Attributes -->
 
-      
-      <section>
-        <h3>Attributes</h3>
-        <table class="table table-striped table-bordered">
-          <tr>
-            <th>Visibility</th>
-            <th>Name</th>
-            <th>Type</th>
-            <th>Description</th>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="af6f7efc761ea202dca8f7f49eccb1f6.html">siteDescription</a></td>
-            <td><a href='20b54b89f6e79142ed90f7a1241aac83.html'>String</a></td>
-            <td><p>Description of the site at the time of the site visit.</p></td>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="0e111f4045433990d7ef85baf0b32d35.html">locationDescription</a></td>
-            <td><a href='20b54b89f6e79142ed90f7a1241aac83.html'>String</a></td>
-            <td><p>Description of the location at the time of the site visit.</p></td>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="f02bf11d795d2d25fbb2f87e523fa097.html">site</a></td>
-            <td><a href='d32dda76ebe260e615347aa7b0abf02d.html'>Site</a></td>
-            <td><p>The site this site visit applies to.</p></td>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="1e9e693526809535960e12aa946d2c46.html">startedAtTime</a></td>
-            <td><a href='2d0c490de5cc8e9f16a261423425ee40.html'>DateTime</a></td>
-            <td></td>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="6779b8f638ad8fa153840afd50538838.html">endedAtTime</a></td>
-            <td><a href='2d0c490de5cc8e9f16a261423425ee40.html'>DateTime</a></td>
-            <td></td>
-          </tr>
-          
-        </table>
-      </section>
       
 
       <!-- Operations -->
@@ -289,7 +232,7 @@
     
     <tr>
         <td>name</td>
-        <td>SiteVisit</td>
+        <td>Date</td>
     </tr>
     
     
@@ -355,15 +298,6 @@
     
     
     
-    
-    
-    <tr>
-        <td>isActive</td>
-        <td><span class='label label-info'>false</span></td>
-    </tr>
-    
-    
-    
 </table>                
 
       </section>
@@ -392,36 +326,12 @@
 
       
       
-<section class="element-list">
-    <h3>Relationships</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='2b741a4ccfd08c31fded7b4585fc04b1.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Site—SiteVisit)</a></li>
-        
-        <li><a href='4a1fb5274558021e745bf5da7d306159.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(SiteVisit→Base)</a></li>
-        
-        <li><a href='da19693e1df6e1ac69db93e33c83a3c8.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>siteVisit (Observation—SiteVisit)</a></li>
-        
-    </ul>
-</section>
-
 
 
       <!-- Owned Elements -->
 
       
       
-<section class="element-list">
-    <h3>Owned Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='2b741a4ccfd08c31fded7b4585fc04b1.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Site—SiteVisit)</a></li>
-        
-        <li><a href='4a1fb5274558021e745bf5da7d306159.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(SiteVisit→Base)</a></li>
-        
-    </ul>
-</section>
-
 
 
     </div>

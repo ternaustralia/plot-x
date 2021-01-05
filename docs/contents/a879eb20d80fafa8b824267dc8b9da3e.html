@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>SiteVisit</title>
+    <title>Observation</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>SiteVisit</h1>
+      <h1>Observation</h1>
 
       <!-- Type and Stereotype -->
 
@@ -43,7 +43,7 @@
           <span class="label label-info"><a href='594af663de577680f35b13183109d675.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Model</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='3c507e636eb3e193828480e12dc765b8.html'><span class='node-icon staruml-icon icon-UMLClass'></span>SiteVisit</a></span>
+          <span class="label label-info"><a href='a879eb20d80fafa8b824267dc8b9da3e.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Observation</a></span>
         
       </section>
 
@@ -58,7 +58,7 @@
         <h3>Description</h3>
         <div>
           
-            <p>A discrete time-bounded visit to a site, during which sampling or observation activities are undertaken.</p>
+            <span class="label label-info">none</span>
           
         </div>
       </section>
@@ -81,15 +81,6 @@
       
         
         
-<section class="element-list">
-    <h3>Generalized Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='48cfd82f1ec2336e39f71b543c22a8f0.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Base</a></li>
-        
-    </ul>
-</section>
-
 
 
         
@@ -152,36 +143,57 @@
           
           <tr>
             <td>public</td>
-            <td><a href="af6f7efc761ea202dca8f7f49eccb1f6.html">siteDescription</a></td>
-            <td><a href='20b54b89f6e79142ed90f7a1241aac83.html'>String</a></td>
-            <td><p>Description of the site at the time of the site visit.</p></td>
+            <td><a href="f30ad599a8afccfa3171afaa426c0ecb.html">phenomenonTime</a></td>
+            <td><span class='label label-info'>none</span></td>
+            <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="0e111f4045433990d7ef85baf0b32d35.html">locationDescription</a></td>
-            <td><a href='20b54b89f6e79142ed90f7a1241aac83.html'>String</a></td>
-            <td><p>Description of the location at the time of the site visit.</p></td>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="f02bf11d795d2d25fbb2f87e523fa097.html">site</a></td>
-            <td><a href='d32dda76ebe260e615347aa7b0abf02d.html'>Site</a></td>
-            <td><p>The site this site visit applies to.</p></td>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="1e9e693526809535960e12aa946d2c46.html">startedAtTime</a></td>
+            <td><a href="2ff46f5dd4d8263480045558f0e8c731.html">resultTime</a></td>
             <td><a href='2d0c490de5cc8e9f16a261423425ee40.html'>DateTime</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="6779b8f638ad8fa153840afd50538838.html">endedAtTime</a></td>
+            <td><a href="a5fbe8a331aaa91e7178f0fc9043be54.html">validTime</a></td>
             <td><a href='2d0c490de5cc8e9f16a261423425ee40.html'>DateTime</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="91b8cf4f2167d42e3562849e09f546cd.html">featureOfInterest</a></td>
+            <td><span class='label label-info'>none</span></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="d2ec46deb5f46b70ad8dd0373c3a7b91.html">parameter</a></td>
+            <td><a href='20b54b89f6e79142ed90f7a1241aac83.html'>String</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="1ac599f5c38a65197ed7dec5c836aa4b.html">procedure</a></td>
+            <td><a href='20b54b89f6e79142ed90f7a1241aac83.html'>String</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="bfd174ab64e6186fea765e738c80e57c.html">result</a></td>
+            <td><a href='20b54b89f6e79142ed90f7a1241aac83.html'>String</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="29c6c0b2d99ee8482effcc6054cecaae.html">siteVisit</a></td>
+            <td><a href='3c507e636eb3e193828480e12dc765b8.html'>SiteVisit</a></td>
             <td></td>
           </tr>
           
@@ -289,7 +301,7 @@
     
     <tr>
         <td>name</td>
-        <td>SiteVisit</td>
+        <td>Observation</td>
     </tr>
     
     
@@ -396,11 +408,9 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='2b741a4ccfd08c31fded7b4585fc04b1.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Site—SiteVisit)</a></li>
-        
-        <li><a href='4a1fb5274558021e745bf5da7d306159.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(SiteVisit→Base)</a></li>
-        
         <li><a href='da19693e1df6e1ac69db93e33c83a3c8.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>siteVisit (Observation—SiteVisit)</a></li>
+        
+        <li><a href='d40b93ecde03522a35ba96008fab7ee8.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Observation—Site)</a></li>
         
     </ul>
 </section>
@@ -415,9 +425,9 @@
     <h3>Owned Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='2b741a4ccfd08c31fded7b4585fc04b1.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Site—SiteVisit)</a></li>
+        <li><a href='da19693e1df6e1ac69db93e33c83a3c8.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>siteVisit (Observation—SiteVisit)</a></li>
         
-        <li><a href='4a1fb5274558021e745bf5da7d306159.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(SiteVisit→Base)</a></li>
+        <li><a href='d40b93ecde03522a35ba96008fab7ee8.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Observation—Site)</a></li>
         
     </ul>
 </section>
