@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>geosparql:Geometry</title>
+    <title>Geometry</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>geosparql:Geometry</h1>
+      <h1>Geometry</h1>
 
       <!-- Type and Stereotype -->
 
@@ -43,7 +43,7 @@
           <span class="label label-info"><a href='c2135af5de7cd2a185a180500162df97.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Model1</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='4411b0a439379284b7a3f0c14d406ec9.html'><span class='node-icon staruml-icon icon-UMLClass'></span>geosparql:Geometry</a></span>
+          <span class="label label-info"><a href='4411b0a439379284b7a3f0c14d406ec9.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Geometry</a></span>
         
       </section>
 
@@ -89,9 +89,9 @@
     <h3>Specialized Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='7ba73eb5c957328209fec2d8ad4c6e50.html'><span class='node-icon staruml-icon icon-UMLClass'></span>tern-loc:Polygon</a></li>
+        <li><a href='9ef4b15a0ff3af7902fafc287431d038.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Point</a></li>
         
-        <li><a href='9ef4b15a0ff3af7902fafc287431d038.html'><span class='node-icon staruml-icon icon-UMLClass'></span>tern-loc:Point</a></li>
+        <li><a href='7ba73eb5c957328209fec2d8ad4c6e50.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Polygon</a></li>
         
     </ul>
 </section>
@@ -141,6 +141,26 @@
 
       <!-- Attributes -->
 
+      
+      <section>
+        <h3>Attributes</h3>
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th>Visibility</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Description</th>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="89f014119567723803c6ad720ed785a3.html">asWKT</a></td>
+            <td><span class='label label-info'>none</span></td>
+            <td></td>
+          </tr>
+          
+        </table>
+      </section>
       
 
       <!-- Operations -->
@@ -243,7 +263,7 @@
     
     <tr>
         <td>name</td>
-        <td>geosparql:Geometry</td>
+        <td>Geometry</td>
     </tr>
     
     
@@ -350,11 +370,13 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='f7fb84cc5436b94fd2851b8ee3090d98.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>geosparql:hasGeometry (tern:Site—geosparql:Geometry)</a></li>
+        <li><a href='f7fb84cc5436b94fd2851b8ee3090d98.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>hasGeometry (Site—Geometry)</a></li>
         
-        <li><a href='4985eb78c34f1cb41d6396de6637dcaa.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(tern-loc:Polygon→geosparql:Geometry)</a></li>
+        <li><a href='5c4681c7c8bcec6f24c9f12a9cfd2e6b.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Point→Geometry)</a></li>
         
-        <li><a href='5c4681c7c8bcec6f24c9f12a9cfd2e6b.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(tern-loc:Point→geosparql:Geometry)</a></li>
+        <li><a href='4985eb78c34f1cb41d6396de6637dcaa.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Polygon→Geometry)</a></li>
+        
+        <li><a href='1482a35c53f99591f3ddd6798233f201.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>hasGeometry (SpatialFeature—Geometry)</a></li>
         
     </ul>
 </section>
