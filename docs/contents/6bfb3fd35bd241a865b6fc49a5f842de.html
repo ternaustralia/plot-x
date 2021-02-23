@@ -87,7 +87,7 @@
         
         <li><a href='fe1029a04e7f9b1362a6a36796a4ed2d.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Sample</a></li>
         
-        <li><a href='dfec59f8f4a886a2ec5dcd34ca10f8e2.html'><span class='node-icon staruml-icon icon-UMLClass'></span>SpatialFeature</a></li>
+        <li><a href='eae0fdcd109a376f62504f65573ccdd0.html'><span class='node-icon staruml-icon icon-UMLClass'></span>FeatureOfInterest</a></li>
         
     </ul>
 </section>
@@ -100,6 +100,8 @@
     <h3>Specialized Elements</h3>
     <ul class="nav nav-list">
         
+        <li><a href='dfec59f8f4a886a2ec5dcd34ca10f8e2.html'><span class='node-icon staruml-icon icon-UMLClass'></span>SpatialSample</a></li>
+        
         <li><a href='692c69124cc6a43b412352f8857c59ea.html'><span class='node-icon staruml-icon icon-UMLClass'></span>PhysicalSpecimen</a></li>
         
         <li><a href='94bc572625202c87262caa416cbd3fa8.html'><span class='node-icon staruml-icon icon-UMLClass'></span>SoilProfile</a></li>
@@ -111,6 +113,8 @@
         <li><a href='3f0e37890ee0d1d645c6828263cce95b.html'><span class='node-icon staruml-icon icon-UMLClass'></span>SamplingPoint</a></li>
         
         <li><a href='679a9d8ef97746bd321fa46a696d96df.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Transect</a></li>
+        
+        <li><a href='dfec59f8f4a886a2ec5dcd34ca10f8e2.html'><span class='node-icon staruml-icon icon-UMLClass'></span>SpatialSample</a></li>
         
         <li><a href='0c2f8fade05d51f3bee678c904e49e9d.html'><span class='node-icon staruml-icon icon-UMLClass'></span>GroundCover</a></li>
         
@@ -193,20 +197,6 @@
             <td>public</td>
             <td><a href="2b030bee90afca9b3304f7dca5f59010.html">identifier</a></td>
             <td><span class='label label-info'>none</span></td>
-            <td></td>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="ada399381a14d1c6c545acf83dc638bc.html">hasSample</a></td>
-            <td><a href='6bfb3fd35bd241a865b6fc49a5f842de.html'>Sample</a></td>
-            <td></td>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="c86ef3753e0f55a3b703fab621dee253.html">isSampleOf</a></td>
-            <td><a href='eae0fdcd109a376f62504f65573ccdd0.html'>FeatureOfInterest</a></td>
             <td></td>
           </tr>
           
@@ -438,7 +428,9 @@
         
         <li><a href='f12acc136a085eaa07b49a8cd2da05b4.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Sample—Site)</a></li>
         
-        <li><a href='ae46a226840e1840977a8257b7c7169d.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Sample→SpatialFeature)</a></li>
+        <li><a href='ae46a226840e1840977a8257b7c7169d.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(SpatialSample→Sample)</a></li>
+        
+        <li><a href='587fbbac3cee7056cb5d5e149a1c649f.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Sample→FeatureOfInterest)</a></li>
         
         <li><a href='d3f0217fb687ae6b3e34e2e654bc07fd.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(PhysicalSpecimen→Sample)</a></li>
         
@@ -455,6 +447,8 @@
         <li><a href='e49dec46edaa1935f4a1e03341993c8b.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(SamplingPoint→Sample)</a></li>
         
         <li><a href='b92af547c8ed4f2028a816104ab37580.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Transect→Sample)</a></li>
+        
+        <li><a href='05d01045836bd5c00eb1bd48dc95e72c.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(SpatialSample→Sample)</a></li>
         
         <li><a href='4489a5bf9e2e13a1640004fb18c1ca9e.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(GroundCover→Sample)</a></li>
         
@@ -475,6 +469,8 @@
         <li><a href='f7c8c0c4c7276d5d44b10fa608029331.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Vegetation→Sample)</a></li>
         
         <li><a href='a3756a91f878b46c5782877612d71ce2.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>hasFeatureOfInterest (Attribute—Sample)</a></li>
+        
+        <li><a href='8037cff4c929f626a732170764db2947.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Sample—FeatureOfInterest)</a></li>
         
     </ul>
 </section>
@@ -499,7 +495,11 @@
         
         <li><a href='f12acc136a085eaa07b49a8cd2da05b4.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Sample—Site)</a></li>
         
-        <li><a href='ae46a226840e1840977a8257b7c7169d.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Sample→SpatialFeature)</a></li>
+        <li><a href='ae46a226840e1840977a8257b7c7169d.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(SpatialSample→Sample)</a></li>
+        
+        <li><a href='587fbbac3cee7056cb5d5e149a1c649f.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Sample→FeatureOfInterest)</a></li>
+        
+        <li><a href='8037cff4c929f626a732170764db2947.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Sample—FeatureOfInterest)</a></li>
         
     </ul>
 </section>
