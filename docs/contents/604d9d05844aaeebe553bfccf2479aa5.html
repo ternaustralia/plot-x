@@ -37,10 +37,10 @@
         
         
           
-          <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>Plot Data Exchange</a></span>
+          <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>Plot-X - Plot Data Exchange Standard</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='c2135af5de7cd2a185a180500162df97.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Model1</a></span>
+          <span class="label label-info"><a href='c2135af5de7cd2a185a180500162df97.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Plot-X Core</a></span>
         
           <span>::</span>
           <span class="label label-info"><a href='604d9d05844aaeebe553bfccf2479aa5.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Site</a></span>
@@ -58,7 +58,7 @@
         <h3>Description</h3>
         <div>
           
-            <span class="label label-info">none</span>
+            <p>A location where observations and samples are made.</p>
           
         </div>
       </section>
@@ -85,7 +85,7 @@
     <h3>Generalized Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='dfec59f8f4a886a2ec5dcd34ca10f8e2.html'><span class='node-icon staruml-icon icon-UMLClass'></span>SpatialSample</a></li>
+        <li><a href='eae0fdcd109a376f62504f65573ccdd0.html'><span class='node-icon staruml-icon icon-UMLClass'></span>FeatureOfInterest</a></li>
         
     </ul>
 </section>
@@ -153,14 +153,84 @@
           <tr>
             <td>public</td>
             <td><a href="164ebc42553a574264557e2a80f32399.html">identifier</a></td>
-            <td><span class='label label-info'>none</span></td>
+            <td><a href='20b54b89f6e79142ed90f7a1241aac83.html'>String</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="a3b08b7b0b2d23ac10f9086020bf868c.html">isPartOf</a></td>
-            <td><a href='49620ec2687f6289a5b598235cd19f94.html'>Dataset</a></td>
+            <td><a href="ce59bbbfc28b284607ded3b691e4e6e3.html">siteName</a></td>
+            <td><a href='20b54b89f6e79142ed90f7a1241aac83.html'>String</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="e5eca1fe679328f4f833dfa6450322c9.html">dateCommissioned</a></td>
+            <td><a href='139ebd2f381d114306510275190dcae8.html'>Date</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="3131e110fd368acc90f971047466b00c.html">dateDecommissioned</a></td>
+            <td><a href='139ebd2f381d114306510275190dcae8.html'>Date</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="5f3e725148d890810aad40dc2260ce78.html">locality</a></td>
+            <td><a href='20b54b89f6e79142ed90f7a1241aac83.html'>String</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="691b3d871b87a087dc8dc249a85d1c55.html">region</a></td>
+            <td><a href='c8129bb5b8c5aa4b75c9d873774fed50.html'>IRI</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="9924640ed44ee8b2ee71df04108112d4.html">permanent</a></td>
+            <td><a href='f895980052e462b4363d14befff104b9.html'>Boolean</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="87a33d5ae67432cc6ae13bd9e6df0be1.html">notes</a></td>
+            <td><a href='20b54b89f6e79142ed90f7a1241aac83.html'>String</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="970daeb55d59b29a7cebd7f1a35f5c6e.html">placementMethod</a></td>
+            <td><span class='label label-info'>none</span></td>
+            <td><p>Strategy followed when placing this particular plot. Useful for example if different sampling strategies have been followed within one project.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="bb87543d79ce98191bedafe527b8ab09.html">placementNote</a></td>
+            <td><span class='label label-info'>none</span></td>
+            <td><p>Additional comments or explanations regarding plot placement.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="a3aead513fffcb8588ec00706cb43166.html">markers</a></td>
+            <td><span class='label label-info'>none</span></td>
+            <td><p>Information about markers (like magnetic markers or wooden pegs) that help locating the plot. There should also be a description about where in the plot the markers are found (for example in the corners or in the centre).</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="19a06e76d364219bad57c982e68630ed.html">siteDescription</a></td>
+            <td><span class='label label-info'>none</span></td>
             <td></td>
           </tr>
           
@@ -377,21 +447,21 @@
         
         <li><a href='24040ae9af6bd15e6bc2ed695bf3cebf.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Site—SiteVisit)</a></li>
         
-        <li><a href='a9c4888b6914d3bd55cef40cc2cb2687.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>sfWithin (Site—SpatialSample)</a></li>
-        
         <li><a href='99cd7ad9b6eb9b9497ee592334430cc3.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Site—Site)</a></li>
         
         <li><a href='f7fb84cc5436b94fd2851b8ee3090d98.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>hasGeometry (Site—Geometry)</a></li>
         
+        <li><a href='afbfa4d209e77a840c094ce9fa86d855.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Site→FeatureOfInterest)</a></li>
+        
+        <li><a href='1b7552262be1e684ffb5f18faf6350e3.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Site—FeatureOfInterest)</a></li>
+        
+        <li><a href='2d1e68f75e591e2ef1b3c84d85f598b3.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>within (Site—Region)</a></li>
+        
         <li><a href='f12acc136a085eaa07b49a8cd2da05b4.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Sample—Site)</a></li>
-        
-        <li><a href='06280f7e13a80265176e6ef4a9b02aac.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Organization—Site)</a></li>
-        
-        <li><a href='a7051b7d71aa883abf7741ea1354455e.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>typeOfGood (OwnershipInfo—Site)</a></li>
         
         <li><a href='9efb6acb591644cfb15039410252c8a4.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Role—Site)</a></li>
         
-        <li><a href='afbfa4d209e77a840c094ce9fa86d855.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Site→SpatialSample)</a></li>
+        <li><a href='a7051b7d71aa883abf7741ea1354455e.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>typeOfGood (OwnershipInfo—Site)</a></li>
         
     </ul>
 </section>
@@ -408,13 +478,15 @@
         
         <li><a href='24040ae9af6bd15e6bc2ed695bf3cebf.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Site—SiteVisit)</a></li>
         
-        <li><a href='a9c4888b6914d3bd55cef40cc2cb2687.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>sfWithin (Site—SpatialSample)</a></li>
-        
         <li><a href='99cd7ad9b6eb9b9497ee592334430cc3.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Site—Site)</a></li>
         
         <li><a href='f7fb84cc5436b94fd2851b8ee3090d98.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>hasGeometry (Site—Geometry)</a></li>
         
-        <li><a href='afbfa4d209e77a840c094ce9fa86d855.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Site→SpatialSample)</a></li>
+        <li><a href='afbfa4d209e77a840c094ce9fa86d855.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Site→FeatureOfInterest)</a></li>
+        
+        <li><a href='1b7552262be1e684ffb5f18faf6350e3.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Site—FeatureOfInterest)</a></li>
+        
+        <li><a href='2d1e68f75e591e2ef1b3c84d85f598b3.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>within (Site—Region)</a></li>
         
     </ul>
 </section>

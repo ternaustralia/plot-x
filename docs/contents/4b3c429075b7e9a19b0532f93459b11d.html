@@ -37,10 +37,10 @@
         
         
           
-          <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>Plot Data Exchange</a></span>
+          <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>Plot-X - Plot Data Exchange Standard</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='c2135af5de7cd2a185a180500162df97.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Model1</a></span>
+          <span class="label label-info"><a href='c2135af5de7cd2a185a180500162df97.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Plot-X Core</a></span>
         
           <span>::</span>
           <span class="label label-info"><a href='4b3c429075b7e9a19b0532f93459b11d.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Observation</a></span>
@@ -84,8 +84,6 @@
 <section class="element-list">
     <h3>Generalized Elements</h3>
     <ul class="nav nav-list">
-        
-        <li><a href='a7ef92b2c994b318d06a9bbe754532eb.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Observation</a></li>
         
         <li><a href='182c2abe78ec389841ff4d0f53740435.html'><span class='node-icon staruml-icon icon-UMLClass'></span>prov:Activity</a></li>
         
@@ -163,20 +161,6 @@
           
           <tr>
             <td>public</td>
-            <td><a href="0458a94b9cd249bed1e2b13d3bac840e.html">site</a></td>
-            <td><a href='604d9d05844aaeebe553bfccf2479aa5.html'>Site</a></td>
-            <td></td>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="630795c757ae61c21637c88b2dc92a45.html">siteVisit</a></td>
-            <td><a href='d0070ff541e0d7637dac6311cb837645.html'>SiteVisit</a></td>
-            <td></td>
-          </tr>
-          
-          <tr>
-            <td>public</td>
             <td><a href="62050fc98c30a171987bdcf82cd937b8.html">phenomenonTime</a></td>
             <td><span class='label label-info'>none</span></td>
             <td></td>
@@ -185,7 +169,14 @@
           <tr>
             <td>public</td>
             <td><a href="755e2ad8d9ff0302d5ddcd168f503de9.html">resultTime</a></td>
-            <td><span class='label label-info'>none</span></td>
+            <td><a href='2d0c490de5cc8e9f16a261423425ee40.html'>DateTime</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="08dae1f8b41a51950dbe582a0b9f93f6.html">validTime</a></td>
+            <td><a href='2d0c490de5cc8e9f16a261423425ee40.html'>DateTime</a></td>
             <td></td>
           </tr>
           
@@ -198,8 +189,8 @@
           
           <tr>
             <td>public</td>
-            <td><a href="b0bd4dca2f642c32f5c108c5f975d116.html">isPartOf</a></td>
-            <td><a href='49620ec2687f6289a5b598235cd19f94.html'>Dataset</a></td>
+            <td><a href="fc7ef79d339211dc044db1567194ca4f.html">isPartOf</a></td>
+            <td><a href='49620ec2687f6289a5b598235cd19f94.html'>Project</a></td>
             <td></td>
           </tr>
           
@@ -420,8 +411,6 @@
         
         <li><a href='3c2b9abb2e08033096253532611d880f.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Observation—Procedure)</a></li>
         
-        <li><a href='a44edc280e8edf52896681526b47ada0.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Observation→Observation)</a></li>
-        
         <li><a href='76f35084ab51ea452032be75cfe68ef2.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Observation→prov:Activity)</a></li>
         
         <li><a href='83e67f4ceb6f33ea49c602cda810c28d.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>hasFeatureOfInterest (Observation—Sample)</a></li>
@@ -431,6 +420,8 @@
         <li><a href='759359e4f3834054665f454009972a6e.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>hasFeatureOfInterest (Observation—FeatureOfInterest)</a></li>
         
         <li><a href='28b60910eec0ffb4e954dfb3b29e6fd5.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>hasFeatureOfInterest (Observation—FeatureOfInterest)</a></li>
+        
+        <li><a href='a19ce0a21ae2546ff540395dd93a69a1.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>attributedTo (Observation—Person)</a></li>
         
         <li><a href='da7de4d9d249f1b07314b20840f9efb6.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Attribute—Observation)</a></li>
         
@@ -453,8 +444,6 @@
         
         <li><a href='3c2b9abb2e08033096253532611d880f.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Observation—Procedure)</a></li>
         
-        <li><a href='a44edc280e8edf52896681526b47ada0.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Observation→Observation)</a></li>
-        
         <li><a href='76f35084ab51ea452032be75cfe68ef2.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Observation→prov:Activity)</a></li>
         
         <li><a href='83e67f4ceb6f33ea49c602cda810c28d.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>hasFeatureOfInterest (Observation—Sample)</a></li>
@@ -464,6 +453,8 @@
         <li><a href='759359e4f3834054665f454009972a6e.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>hasFeatureOfInterest (Observation—FeatureOfInterest)</a></li>
         
         <li><a href='28b60910eec0ffb4e954dfb3b29e6fd5.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>hasFeatureOfInterest (Observation—FeatureOfInterest)</a></li>
+        
+        <li><a href='a19ce0a21ae2546ff540395dd93a69a1.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>attributedTo (Observation—Person)</a></li>
         
     </ul>
 </section>

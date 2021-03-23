@@ -37,10 +37,10 @@
         
         
           
-          <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>Plot Data Exchange</a></span>
+          <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>Plot-X - Plot Data Exchange Standard</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='c2135af5de7cd2a185a180500162df97.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Model1</a></span>
+          <span class="label label-info"><a href='c2135af5de7cd2a185a180500162df97.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Plot-X Core</a></span>
         
           <span>::</span>
           <span class="label label-info"><a href='eae0fdcd109a376f62504f65573ccdd0.html'><span class='node-icon staruml-icon icon-UMLClass'></span>FeatureOfInterest</a></span>
@@ -89,9 +89,9 @@
     <h3>Specialized Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='6bfb3fd35bd241a865b6fc49a5f842de.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Sample</a></li>
+        <li><a href='604d9d05844aaeebe553bfccf2479aa5.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Site</a></li>
         
-        <li><a href='fe1029a04e7f9b1362a6a36796a4ed2d.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Sample</a></li>
+        <li><a href='6bfb3fd35bd241a865b6fc49a5f842de.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Sample</a></li>
         
     </ul>
 </section>
@@ -156,20 +156,6 @@
             <td>public</td>
             <td><a href="04c58c84ba3fc26a9f83e6d017802e77.html">featureType</a></td>
             <td><a href='d22a9ba3addbcb1295007201c713574f.html'>FeatureTerm</a></td>
-            <td></td>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="c7538616927c50d3d8fc96133d329592.html">domain</a></td>
-            <td><a href='0e726bc4068a99b04417614bde23754f.html'>DomainTerm</a></td>
-            <td></td>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="5342e6e49abe1e6f0ee5c9b84faba7d1.html">isPartOf</a></td>
-            <td><a href='49620ec2687f6289a5b598235cd19f94.html'>Dataset</a></td>
             <td></td>
           </tr>
           
@@ -384,17 +370,23 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
+        <li><a href='afbfa4d209e77a840c094ce9fa86d855.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Site→FeatureOfInterest)</a></li>
+        
+        <li><a href='1b7552262be1e684ffb5f18faf6350e3.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Site—FeatureOfInterest)</a></li>
+        
         <li><a href='587fbbac3cee7056cb5d5e149a1c649f.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Sample→FeatureOfInterest)</a></li>
+        
+        <li><a href='8037cff4c929f626a732170764db2947.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Sample—FeatureOfInterest)</a></li>
+        
+        <li><a href='9a349622c2a08108d59be8cb5280c13f.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>hasGeometry (FeatureOfInterest—Geometry)</a></li>
         
         <li><a href='759359e4f3834054665f454009972a6e.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>hasFeatureOfInterest (Observation—FeatureOfInterest)</a></li>
         
         <li><a href='28b60910eec0ffb4e954dfb3b29e6fd5.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>hasFeatureOfInterest (Observation—FeatureOfInterest)</a></li>
         
-        <li><a href='69c9623c7fdc6467534b4641a86df817.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Sample→FeatureOfInterest)</a></li>
-        
         <li><a href='6e7e3f09df944682b2039ab29daddb6d.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Attribute—FeatureOfInterest)</a></li>
         
-        <li><a href='8037cff4c929f626a732170764db2947.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Sample—FeatureOfInterest)</a></li>
+        <li><a href='4f7686526de217da59da74621ab79b82.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(FeatureOfInterest—FeatureOfInterest)</a></li>
         
     </ul>
 </section>
@@ -405,6 +397,15 @@
 
       
       
+<section class="element-list">
+    <h3>Owned Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='4f7686526de217da59da74621ab79b82.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(FeatureOfInterest—FeatureOfInterest)</a></li>
+        
+    </ul>
+</section>
+
 
 
     </div>

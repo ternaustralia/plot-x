@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>VegetationCommunity</title>
+    <title>PlantCommunity</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>VegetationCommunity</h1>
+      <h1>PlantCommunity</h1>
 
       <!-- Type and Stereotype -->
 
@@ -37,13 +37,13 @@
         
         
           
-          <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>Plot Data Exchange</a></span>
+          <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>Plot-X - Plot Data Exchange Standard</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='c2135af5de7cd2a185a180500162df97.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Model1</a></span>
+          <span class="label label-info"><a href='691620c3ab3c8539cfd40bdbee898a4a.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Plot-X Vegetation</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='049da645a8e91d5b24e2d8b04a423c4b.html'><span class='node-icon staruml-icon icon-UMLClass'></span>VegetationCommunity</a></span>
+          <span class="label label-info"><a href='049da645a8e91d5b24e2d8b04a423c4b.html'><span class='node-icon staruml-icon icon-UMLClass'></span>«VegetationFeature»PlantCommunity</a></span>
         
       </section>
 
@@ -58,7 +58,11 @@
         <h3>Description</h3>
         <div>
           
-            <span class="label label-info">none</span>
+            <p>Plant communities are groups of plants sharing a common environment that interact with each other, animal populations, and the physical environment. Certain plant communities often occur together on the landscape due to shared environmental requirements. This provides a way to organize biological information, creating mappable units for land management and conservation planning.</p>
+
+<p>Communities are often defined by dominant plant species, which provide useful habitat information for many animal species. This provides an efficient starting point for biological surveys.</p>
+
+<p>Source: <a href="https://www.dcnr.pa.gov/Conservation/WildPlants/PlantCommunities/Pages/default.aspx">https://www.dcnr.pa.gov/Conservation/WildPlants/PlantCommunities/Pages/default.aspx</a></p>
           
         </div>
       </section>
@@ -81,15 +85,6 @@
       
         
         
-<section class="element-list">
-    <h3>Generalized Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='d8c47b9ba688798e0d64d314fda8e228.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Vegetation</a></li>
-        
-    </ul>
-</section>
-
 
 
         
@@ -139,6 +134,26 @@
 
       <!-- Attributes -->
 
+      
+      <section>
+        <h3>Attributes</h3>
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th>Visibility</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Description</th>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="56c2092562c49c7f1a623d95980a4b2b.html">structuralFormationClassification</a></td>
+            <td><a href='16cdcf78f4c1d605a605613e100b0db4.html'>StructuralFormationClassification</a></td>
+            <td><p>The type of structural formation classification used.</p></td>
+          </tr>
+          
+        </table>
+      </section>
       
 
       <!-- Operations -->
@@ -241,7 +256,7 @@
     
     <tr>
         <td>name</td>
-        <td>VegetationCommunity</td>
+        <td>PlantCommunity</td>
     </tr>
     
     
@@ -256,7 +271,7 @@
     
     <tr>
         <td>stereotype</td>
-        <td><span class='label label-info'>null</span></td>
+        <td><a href='d8c47b9ba688798e0d64d314fda8e228.html'><span class='node-icon staruml-icon icon-UMLClass'></span>VegetationFeature</a></td>
     </tr>
     
     
@@ -348,7 +363,7 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='226bbe139f9ea16baf0fb4bbfdc6112f.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(VegetationCommunity→Vegetation)</a></li>
+        <li><a href='c4309f396db831906f4b9e286271e53f.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(PlantCommunity—Vegetation)</a></li>
         
     </ul>
 </section>
@@ -363,7 +378,7 @@
     <h3>Owned Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='226bbe139f9ea16baf0fb4bbfdc6112f.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(VegetationCommunity→Vegetation)</a></li>
+        <li><a href='c4309f396db831906f4b9e286271e53f.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(PlantCommunity—Vegetation)</a></li>
         
     </ul>
 </section>
