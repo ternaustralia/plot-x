@@ -73162,234 +73162,6 @@
 		},
 		{
 			"_type": "UMLModel",
-			"_id": "AAAAAAF4XWP+SwCOHWg=",
-			"_parent": {
-				"$ref": "AAAAAAFF+h6SjaM2Hec="
-			},
-			"name": "Plot-X Soil",
-			"ownedElements": [
-				{
-					"_type": "UMLClassDiagram",
-					"_id": "AAAAAAF4XWP+SwCPp6k=",
-					"_parent": {
-						"$ref": "AAAAAAF4XWP+SwCOHWg="
-					},
-					"name": "Soil",
-					"ownedViews": [
-						{
-							"_type": "UMLClassView",
-							"_id": "AAAAAAF4XWidiAqFUi0=",
-							"_parent": {
-								"$ref": "AAAAAAF4XWP+SwCPp6k="
-							},
-							"model": {
-								"$ref": "AAAAAAF21SPtffwXMng="
-							},
-							"subViews": [
-								{
-									"_type": "UMLNameCompartmentView",
-									"_id": "AAAAAAF4XWidiQqGAeY=",
-									"_parent": {
-										"$ref": "AAAAAAF4XWidiAqFUi0="
-									},
-									"model": {
-										"$ref": "AAAAAAF21SPtffwXMng="
-									},
-									"subViews": [
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAF4XWidiQqHFGQ=",
-											"_parent": {
-												"$ref": "AAAAAAF4XWidiQqGAeY="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"height": 13
-										},
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAF4XWidiQqInsY=",
-											"_parent": {
-												"$ref": "AAAAAAF4XWidiQqGAeY="
-											},
-											"font": "Arial;13;1",
-											"left": 25,
-											"top": 27,
-											"width": 205.6005859375,
-											"height": 13,
-											"text": "SoilFeature"
-										},
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAF4XWidiQqJ+wk=",
-											"_parent": {
-												"$ref": "AAAAAAF4XWidiQqGAeY="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"width": 98.9599609375,
-											"height": 13,
-											"text": "(from Plot-X Soil)"
-										},
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAF4XWidiQqKYvk=",
-											"_parent": {
-												"$ref": "AAAAAAF4XWidiQqGAeY="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"height": 13,
-											"horizontalAlignment": 1
-										}
-									],
-									"font": "Arial;13;0",
-									"left": 20,
-									"top": 20,
-									"width": 215.6005859375,
-									"height": 25,
-									"stereotypeLabel": {
-										"$ref": "AAAAAAF4XWidiQqHFGQ="
-									},
-									"nameLabel": {
-										"$ref": "AAAAAAF4XWidiQqInsY="
-									},
-									"namespaceLabel": {
-										"$ref": "AAAAAAF4XWidiQqJ+wk="
-									},
-									"propertyLabel": {
-										"$ref": "AAAAAAF4XWidiQqKYvk="
-									}
-								},
-								{
-									"_type": "UMLAttributeCompartmentView",
-									"_id": "AAAAAAF4XWidiQqLPms=",
-									"_parent": {
-										"$ref": "AAAAAAF4XWidiAqFUi0="
-									},
-									"model": {
-										"$ref": "AAAAAAF21SPtffwXMng="
-									},
-									"subViews": [
-										{
-											"_type": "UMLAttributeView",
-											"_id": "AAAAAAF4XWidngqr6Xk=",
-											"_parent": {
-												"$ref": "AAAAAAF4XWidiQqLPms="
-											},
-											"model": {
-												"$ref": "AAAAAAF21SVv6P0BKVI="
-											},
-											"font": "Arial;13;0",
-											"left": 25,
-											"top": 50,
-											"width": 205.6005859375,
-											"height": 13,
-											"text": "+soilDepth: QuantitativeRange[0..1]",
-											"horizontalAlignment": 0
-										}
-									],
-									"font": "Arial;13;0",
-									"left": 20,
-									"top": 45,
-									"width": 215.6005859375,
-									"height": 23
-								},
-								{
-									"_type": "UMLOperationCompartmentView",
-									"_id": "AAAAAAF4XWidiQqMToA=",
-									"_parent": {
-										"$ref": "AAAAAAF4XWidiAqFUi0="
-									},
-									"model": {
-										"$ref": "AAAAAAF21SPtffwXMng="
-									},
-									"font": "Arial;13;0",
-									"left": 20,
-									"top": 68,
-									"width": 215.6005859375,
-									"height": 10
-								},
-								{
-									"_type": "UMLReceptionCompartmentView",
-									"_id": "AAAAAAF4XWidiQqN44c=",
-									"_parent": {
-										"$ref": "AAAAAAF4XWidiAqFUi0="
-									},
-									"model": {
-										"$ref": "AAAAAAF21SPtffwXMng="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"width": 10,
-									"height": 10
-								},
-								{
-									"_type": "UMLTemplateParameterCompartmentView",
-									"_id": "AAAAAAF4XWidiQqOnbE=",
-									"_parent": {
-										"$ref": "AAAAAAF4XWidiAqFUi0="
-									},
-									"model": {
-										"$ref": "AAAAAAF21SPtffwXMng="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"width": 10,
-									"height": 10
-								}
-							],
-							"font": "Arial;13;0",
-							"containerChangeable": true,
-							"left": 20,
-							"top": 20,
-							"width": 215.6005859375,
-							"height": 58,
-							"nameCompartment": {
-								"$ref": "AAAAAAF4XWidiQqGAeY="
-							},
-							"attributeCompartment": {
-								"$ref": "AAAAAAF4XWidiQqLPms="
-							},
-							"operationCompartment": {
-								"$ref": "AAAAAAF4XWidiQqMToA="
-							},
-							"receptionCompartment": {
-								"$ref": "AAAAAAF4XWidiQqN44c="
-							},
-							"templateParameterCompartment": {
-								"$ref": "AAAAAAF4XWidiQqOnbE="
-							}
-						}
-					]
-				},
-				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAF21SPtffwXMng=",
-					"_parent": {
-						"$ref": "AAAAAAF4XWP+SwCOHWg="
-					},
-					"name": "SoilFeature",
-					"attributes": [
-						{
-							"_type": "UMLAttribute",
-							"_id": "AAAAAAF21SVv6P0BKVI=",
-							"_parent": {
-								"$ref": "AAAAAAF21SPtffwXMng="
-							},
-							"name": "soilDepth",
-							"type": {
-								"$ref": "AAAAAAF21TnIUwpekNs="
-							},
-							"multiplicity": "0..1"
-						}
-					]
-				}
-			],
-			"documentation": "**References**:\n\n- R.C. McDonald, R.F. Isbell and J.G. Speight (2009) Land Surface. In Australian soil and land survey field handbook (3rd edn), p110-111 (National Committee on Soil and Terrain) (CSIRO Publishing: Melbourne).\n- ANZSoilML - [http://anzsoil.org/doc/anzsoilml/html/2.0.1/](http://anzsoil.org/doc/anzsoilml/html/2.0.1/)"
-		},
-		{
-			"_type": "UMLModel",
 			"_id": "AAAAAAF4e8oZe87ldm4=",
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
@@ -79325,6 +79097,234 @@
 					"value": "Acacia ancistrocarpa"
 				}
 			]
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAF4XWP+SwCOHWg=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Plot-X Soil",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAF4XWP+SwCPp6k=",
+					"_parent": {
+						"$ref": "AAAAAAF4XWP+SwCOHWg="
+					},
+					"name": "Soil",
+					"ownedViews": [
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAF4XWidiAqFUi0=",
+							"_parent": {
+								"$ref": "AAAAAAF4XWP+SwCPp6k="
+							},
+							"model": {
+								"$ref": "AAAAAAF21SPtffwXMng="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAF4XWidiQqGAeY=",
+									"_parent": {
+										"$ref": "AAAAAAF4XWidiAqFUi0="
+									},
+									"model": {
+										"$ref": "AAAAAAF21SPtffwXMng="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF4XWidiQqHFGQ=",
+											"_parent": {
+												"$ref": "AAAAAAF4XWidiQqGAeY="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF4XWidiQqInsY=",
+											"_parent": {
+												"$ref": "AAAAAAF4XWidiQqGAeY="
+											},
+											"font": "Arial;13;1",
+											"left": 25,
+											"top": 27,
+											"width": 205.6005859375,
+											"height": 13,
+											"text": "SoilFeature"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF4XWidiQqJ+wk=",
+											"_parent": {
+												"$ref": "AAAAAAF4XWidiQqGAeY="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"width": 98.9599609375,
+											"height": 13,
+											"text": "(from Plot-X Soil)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF4XWidiQqKYvk=",
+											"_parent": {
+												"$ref": "AAAAAAF4XWidiQqGAeY="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 20,
+									"top": 20,
+									"width": 215.6005859375,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAF4XWidiQqHFGQ="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAF4XWidiQqInsY="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAF4XWidiQqJ+wk="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAF4XWidiQqKYvk="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAF4XWidiQqLPms=",
+									"_parent": {
+										"$ref": "AAAAAAF4XWidiAqFUi0="
+									},
+									"model": {
+										"$ref": "AAAAAAF21SPtffwXMng="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF4XWidngqr6Xk=",
+											"_parent": {
+												"$ref": "AAAAAAF4XWidiQqLPms="
+											},
+											"model": {
+												"$ref": "AAAAAAF21SVv6P0BKVI="
+											},
+											"font": "Arial;13;0",
+											"left": 25,
+											"top": 50,
+											"width": 205.6005859375,
+											"height": 13,
+											"text": "+soilDepth: QuantitativeRange[0..1]",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 20,
+									"top": 45,
+									"width": 215.6005859375,
+									"height": 23
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAF4XWidiQqMToA=",
+									"_parent": {
+										"$ref": "AAAAAAF4XWidiAqFUi0="
+									},
+									"model": {
+										"$ref": "AAAAAAF21SPtffwXMng="
+									},
+									"font": "Arial;13;0",
+									"left": 20,
+									"top": 68,
+									"width": 215.6005859375,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAF4XWidiQqN44c=",
+									"_parent": {
+										"$ref": "AAAAAAF4XWidiAqFUi0="
+									},
+									"model": {
+										"$ref": "AAAAAAF21SPtffwXMng="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAF4XWidiQqOnbE=",
+									"_parent": {
+										"$ref": "AAAAAAF4XWidiAqFUi0="
+									},
+									"model": {
+										"$ref": "AAAAAAF21SPtffwXMng="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 20,
+							"top": 20,
+							"width": 215.6005859375,
+							"height": 58,
+							"nameCompartment": {
+								"$ref": "AAAAAAF4XWidiQqGAeY="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAF4XWidiQqLPms="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAF4XWidiQqMToA="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAF4XWidiQqN44c="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAF4XWidiQqOnbE="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAF21SPtffwXMng=",
+					"_parent": {
+						"$ref": "AAAAAAF4XWP+SwCOHWg="
+					},
+					"name": "SoilFeature",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF21SVv6P0BKVI=",
+							"_parent": {
+								"$ref": "AAAAAAF21SPtffwXMng="
+							},
+							"name": "soilDepth",
+							"type": {
+								"$ref": "AAAAAAF21TnIUwpekNs="
+							},
+							"multiplicity": "0..1"
+						}
+					]
+				}
+			],
+			"documentation": "**References**:\n\n- R.C. McDonald, R.F. Isbell and J.G. Speight (2009) Land Surface. In Australian soil and land survey field handbook (3rd edn), p110-111 (National Committee on Soil and Terrain) (CSIRO Publishing: Melbourne).\n- ANZSoilML - [http://anzsoil.org/doc/anzsoilml/html/2.0.1/](http://anzsoil.org/doc/anzsoilml/html/2.0.1/)"
 		}
 	],
 	"documentation": "Plot-X is a national Australian ecological data exchange standard for exchanging plot-based survey data. \n\nThis standard is funded by the Department of Agriculture, Water and the Environment, under the Digital Environmental Assessment Program (DEAP) and the National Landcare Program. See the [project poster](https://w3id.org/tern/static/plot-x/nrm-plot-x-project-poster.pdf) for more information."
